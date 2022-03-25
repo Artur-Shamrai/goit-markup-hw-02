@@ -5,6 +5,8 @@ body {
 .list {
   list-style: none;
 }
+
+/*Logotipe*/
 .logotipe {
   color: #212121;
 }
@@ -16,10 +18,24 @@ body {
 .site-nav .link {
   color: #212121;
 }
-
 .site-nav :hover,
-site-nav :focus {
+.site-nav :focus {
   color: #2196f3;
+}
+
+/*Auth-navigation*/
+.auth-nav .link {
+  color: #757575;
+}
+.auth-nav :hover,
+.site-nav :focus {
+  color: #2196f3;
+}
+
+/*Button*/
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 /*Цвет основного текста #212121*/
 /*Цвет второгстепенного текста #757575*/
