@@ -1,3 +1,9 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --akcent: #2196f3;
+}
+
 body {
   background-color: #e5e5e5;
   color: #212121;
@@ -8,38 +14,38 @@ body {
 
 /*Logotipe*/
 .logotipe {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .logo {
-  color: #2196f3;
+  color: var(--akcent);
 }
 
 /*Site-navigation*/
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .site-nav :hover,
 .site-nav :focus {
-  color: #2196f3;
+  color: var(--akcent);
 }
 
 /*Auth-navigation*/
 .auth-nav .link {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .auth-nav :hover,
 .site-nav :focus {
-  color: #2196f3;
+  color: var(--akcent);
 }
 
 /*Button*/
 .button {
-  background-color: #2196f3;
+  background-color: var(--akcent);
   color: #ffffff;
 }
 
 .section-title {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .future-list {
