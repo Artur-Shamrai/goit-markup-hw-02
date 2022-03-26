@@ -28,7 +28,9 @@ body {
 .site-nav :focus {
   color: var(--akcent);
 }
-
+.site-nav .link.current {
+  color: var(--akcent);
+}
 /*Auth-navigation*/
 .auth-nav .link {
   color: var(--secondary-text-color);
@@ -38,14 +40,13 @@ body {
   color: var(--akcent);
 }
 
-/*Button*/
-.button {
+/*Hero*/
+.hero-title {
+  color: var(--primary-text-color);
+}
+.hero .button {
   background-color: var(--akcent);
   color: #ffffff;
-}
-
-.section-title {
-  color: var(--primary-text-color);
 }
 
 .future-list {
