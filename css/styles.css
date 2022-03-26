@@ -52,6 +52,16 @@ body {
 .future-list {
 }
 
+
+/*Roboco text*/
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+/*Raleway text*/
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 /*Цвет основного текста #212121*/
 /*Цвет второгстепенного текста #757575*/
 /*Цвет акцента #2196F3*/
