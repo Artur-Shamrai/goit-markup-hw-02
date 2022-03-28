@@ -7,22 +7,32 @@
 body {
   background-color: #e5e5e5;
   color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
 }
 .list {
   list-style: none;
 }
 
 /*Logotipe*/
-.logotipe {
-  color: var(--primary-text-color);
-}
+
 .logo {
   color: var(--akcent);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /*Site-navigation*/
 .site-nav .link {
   color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+
 }
 .site-nav :hover,
 .site-nav :focus {
@@ -36,32 +46,72 @@ body {
   color: var(--secondary-text-color);
 }
 .auth-nav :hover,
-.site-nav :focus {
+.auth-nav :focus {
   color: var(--akcent);
 }
 
 /*Hero*/
 .hero-title {
   color: var(--primary-text-color);
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 .hero .button {
   background-color: var(--akcent);
   color: #ffffff;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
 }
 
-.future-list {
-}
+/*Section Title*/
+ .section-title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+ }
+
+ /*Future list*/
+ .future .title{
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+ }
+ .future .slogan{
+   color: var(--secondary-text-color);
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+ }
+
+/*PORTFOLIO*/
+/*Buttons*/
+
+.button :hover, 
+.button :focus {
+  background-color: var(--akcent);}
 
 
-/*Roboco text*/
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-/*Raleway text*/
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 /*Цвет основного текста #212121*/
 /*Цвет второгстепенного текста #757575*/
 /*Цвет акцента #2196F3*/
