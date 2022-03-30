@@ -7,7 +7,7 @@
 body {
   background-color: #e5e5e5;
   color: #212121;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto',serif;
   letter-spacing: 0.02em;
 }
 .list {
@@ -17,7 +17,7 @@ body {
 /*Logotipe*/
 
 .logo {
-  color: var(--akcent);
+  color: var(--primary-text-color);
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -25,7 +25,16 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.logo .akcent {color: var(--akcent);}
 
+.logotipe{color: #ffffff;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;}
+.logotipe .akcent{color: var(--akcent);}
 /*Site-navigation*/
 .site-nav .link {
   color: var(--primary-text-color);
@@ -102,6 +111,18 @@ letter-spacing: 0.06em;
   line-height: 1.71;
   letter-spacing: 0.03em;
  }
+ /*Footer*/
+
+.footer .link{
+  color: #2196f3;
+font-family: 'Roboto','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  
+
+}
 
 /*PORTFOLIO*/
 /*Buttons*/
@@ -113,7 +134,7 @@ letter-spacing: 0.06em;
 
 
 /*Цвет основного текста #212121*/
-/*Цвет второгстепенного текста #757575*/
+/*Цвет второстепенного текста #757575*/
 /*Цвет акцента #2196F3*/
 /*b g color #E5E5E5*/
 /* footer color #2F303A*/
