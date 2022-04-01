@@ -180,6 +180,9 @@ height: 50px;
 
 
   /* Poster section */
+  .portfolio a{
+    text-decoration: none;
+  }
   .portfolio .title{
     color: var(--primary-text-color);
     font-weight: var(--font-weight-hight);
