@@ -7,6 +7,7 @@
   --background-color: #e5e5e5;
   --background-footer-color: #2F303A;
   --buttons-color: #F5F4FA;
+  --hero-button-backgroun: #188CE8;
 
   /* Font family */
   --general-font:'Roboto';
@@ -14,11 +15,11 @@
   /* Font size */
   --font-weight-general: 400;
   --font-weight-medium: 500;
-  --font-weight-hight:700;
+  --font-weight-bold:700;
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--text-color-white);
   color: var(--primary-text-color);
   font-family: var(--general-font), sans-serif;
   font-size: 14px;
@@ -86,10 +87,11 @@ text-decoration: none;
 }
 
 /*Hero section*/
-.hero{ background-color:var(--footer-color);
+.hero{ background-color: var(--background-footer-color);
   width: 1600px;
   height: 600px;}
-.hero-title {
+
+  .hero-title {
   color: var(--text-color-white);
   font-weight: 900;
 font-size: 44px;
@@ -100,9 +102,10 @@ text-transform: uppercase;
 
 }
 .hero .button {
-  background-color: var(--akcent);
+  background-color: var(--hero-button-backgroun);
   color: var(--text-color-white);
-font-weight: var(--font-weight-hight);
+font-family: inherit;
+  font-weight: var(--font-weight-bold);
 font-size: 16px;
 line-height: 1.87;
 
@@ -113,8 +116,10 @@ height: 50px;
 }
 
  /*Future list(Hero)*/
+ .future .heading{}
  .future .title{
-  font-weight: var(--font-weight-hight);
+  font-weight: var(--font-weight-bold);
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -125,26 +130,40 @@ height: 50px;
   line-height: 1.71;
  }
 
-  
 
  /* Section team */
- .section-team .title{
-  color: var(--primary-text-color);
-  font-weight: var(--font-weight-hight);
+ 
+ .team-heading{
+   font-size: 36px;
+   font-weight: var(--font-weight-bold);
+   line-height: 1.17;
+   text-align: center;
+ }
+ .team .title{
+  
+  font-weight: var(--font-weight-medium);
   font-size: 16px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  
 }
  
- .section-team .text{
+ .team .text{
    color: var(--secondary-text-color);
    font-size: 16px;
    line-height: 1.18;
-   letter-spacing: 0.03em;
+  }
+  /* Activity section */
+  .activity .title{
+    font-weight: var(--font-weight-bold);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
   }
  
  /*Footer*/
-
+.footer{
+  background-color: var(--background-footer-color);
+}
 
   .footer .map{
   color: var(--text-color-white);
@@ -167,29 +186,37 @@ height: 50px;
 
 /*Buttons*/
 
-.portfolio button{
-  cursor: pointer;
-  background-color: var(--buttons-color);
+.button-list button{
+background-color: var(--buttons-color);
+  font-family: inherit;
   font-weight: var(--font-weight-medium);
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
+
  
 }
+.portfolio .button{list-style: none;
+  }
+
 .portfolio .button :hover, 
 .portfolio .button :focus{  
-  background-color: var(--akcent);}
+  background-color: var(--akcent);
+color: var(--text-color-white);}
 
 
   /* Poster section */
   .portfolio a{
     text-decoration: none;
+    font-family: inherit;
   }
   .portfolio .title{
     color: var(--primary-text-color);
-    font-weight: var(--font-weight-hight);
+    font-weight: var(--font-weight-bold);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+  
   }
 
   .portfolio .lead{
